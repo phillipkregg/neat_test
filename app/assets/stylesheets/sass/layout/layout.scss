@@ -1,0 +1,13 @@
+
+.left_column {
+  background: #FFE1FF;
+  @include span-columns(8);
+  min-height: 200px;
+}
+
+
+.right_column {
+  background: #54FF9F;
+  @include span-columns(4);
+  min-height: 200px;
+}

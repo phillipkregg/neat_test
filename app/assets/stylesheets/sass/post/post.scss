@@ -1,0 +1,24 @@
+
+div.comment_container { 
+  @include span-columns(12); 
+  font-family: 'Titillium Web', sans-serif;  
+  background: #AEEEEE;
+  
+  .user_container {
+    background: #37FDFC;
+    @include span-columns(4);
+  }
+  .comment_box {
+    .comment_header {
+      background: black;
+      color: white;
+    }
+    .comment_body {
+      padding: 5px 0;
+    }
+    
+  }
+  
+}
+
+
