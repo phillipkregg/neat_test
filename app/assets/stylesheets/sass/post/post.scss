@@ -1,20 +1,25 @@
 
-div.comment_container { 
-  @include span-columns(12); 
+.comment_container { 
+  margin-top: 20px;  
+  min-height: 200px;
+  @include pad(10px);
   font-family: 'Titillium Web', sans-serif;  
   background: #AEEEEE;
   
   .user_container {
     background: #37FDFC;
-    @include span-columns(4);
+    @include span-columns(2 of 8);
   }
   .comment_box {
+    @include span-columns(6 of 8);
+    background: white;
     .comment_header {
-      background: black;
+      background: black;      
       color: white;
     }
     .comment_body {
-      padding: 5px 0;
+      @include pad(10px);
+      
     }
     
   }

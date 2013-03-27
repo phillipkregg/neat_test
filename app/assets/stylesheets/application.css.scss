@@ -14,22 +14,45 @@
 
 @import "bourbon";
 @import "neat";
+@import "font-awesome";
 @import "reset";
 
 // include sass files
+@import "sass/variables";
 @import "sass/layout/layout";
+@import "sass/navbar/navbar";
+@import "sass/post/post";
+@import "sass/boxes/two_column_box";
+@import "sass/articles/article";
 
 // fonts
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
 
-@import "sass/post/post";
+
+
 
 
 // Global styles
-.wrapper {
-  @include outer-container;
+p {
+  font-family: 'PT Sans Caption', sans-serif;
 }
-#banner_ad {
-  text-align: center;
-    
+
+h1, h2, h3, h4, h5 {
+  font-family: 'PT Sans Caption', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

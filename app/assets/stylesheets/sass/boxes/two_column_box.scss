@@ -1,0 +1,38 @@
+
+.two_column_box {  
+  .box_header_container {    
+    background: black;    
+    overflow: auto;
+    
+    .old_client_header { 
+      @include span-columns(4 of 8);       
+      text-align: left;    
+      color: white;
+      
+    }
+    .new_client_header {   
+      @include span-columns(4 of 8);      
+      text-align: left;
+      color: white;
+      
+    }
+  } // end box header container
+  
+  .box_subheader {    
+    @include span-columns(8 of 8);
+    @include pad(5px);
+    text-align: center;
+    background: $medium_blue;
+    color: white;
+  }
+  .box_left_column {
+    
+    @include span-columns(6);
+  }
+  .box_right_column {
+    
+    
+  }
+  
+  
+}// end two column box

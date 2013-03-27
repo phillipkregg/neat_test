@@ -1,13 +1,47 @@
 
+
+
+body {
+  background: url('wow_bg.png') $medium_blue no-repeat center top;
+  
+}
+
+.wrapper {
+  @include outer-container;  
+  @include pad(10px);
+  background: white;
+  background: rgba(255, 255, 255, 0.75); 
+}
+
+header {
+  @include outer-container;  
+  background: rgba(0, 0, 0, 0.40); 
+}
+
+#banner_ad {    
+  text-align: center;    
+}
+
+#logo_container {
+  width: 255px;
+  height: 112px;
+  margin-top: 20px;
+  background: url('http://static-titanium.cursecdn.com/1-0-4832-21515/Skins/ReignOfGaming/images/logo.png');
+}
+
+
 .left_column {
   background: #FFE1FF;
   @include span-columns(8);
-  min-height: 200px;
+  min-height: 200px;  
+  
+  
 }
 
 
 .right_column {
   background: #54FF9F;
   @include span-columns(4);
+  text-align: center;
   min-height: 200px;
 }

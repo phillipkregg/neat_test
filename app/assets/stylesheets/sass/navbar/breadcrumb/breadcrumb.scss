@@ -1,0 +1,19 @@
+
+
+.breadcrumb_nav {
+  background: black;
+  color: $sky_blue;
+  padding: 5px;
+  font-size: 14px;
+  
+  font-family: 'PT Sans Caption', sans-serif;
+  .breadcrumb_link {
+    padding: 5px;
+    a {
+      color: $sky_blue;
+    }
+  }
+  .breadcrumb_link_last {
+    color: gray;
+  }
+}

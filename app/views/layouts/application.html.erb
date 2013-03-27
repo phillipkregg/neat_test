@@ -2,40 +2,52 @@
 <html>
 <head>
   <title>NeatTest</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>  	
   <%= javascript_include_tag "application" %>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+  <![endif]-->
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
+	<header>
+		<div id="logo_container"></div>
+		<nav>
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Link</a></li>
+				<li>
+					<a href="#">Link</a>
+					<ul>
+						<li><a href="#">sublink 1</a></li>
+						<li><a href="#">sublink 2</a></li>
+						<li><a href="#">sublink 3</a></li>
+						<li><a href="#">sublink 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<div id="social_icons">
+					<img src="http://placehold.it/30x30"/>
+					<img src="http://placehold.it/30x30"/>
+					<img src="http://placehold.it/30x30"/>
+				</div>
+			</ul>
+			
+		</nav>
+	</header>
+	
 	<div class="wrapper">
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-				</ul>
-				<ul id="social_icons">
-					<li>
-						<img src="http://placehold.it/30x30"/>
-					</li>
-					<li>
-						<img src="http://placehold.it/30x30"/>
-					</li>
-					<li>
-						<img src="http://placehold.it/30x30"/>
-					</li>
-				</ul>
-			</nav>
-		</header>
+		
 		
 		<div id="banner_ad">
-			<img src="http://placehold.it/960x100"/>
+			
+			<img src="assets/blue_ad.png"/>
 		</div>
 		
 		
