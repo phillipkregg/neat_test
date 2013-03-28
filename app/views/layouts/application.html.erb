@@ -8,6 +8,9 @@
   <script type="text/javascript" src="selectivizr.js"></script>
   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
   <![endif]-->
+  <!--[if lt IE 9]>
+	<script src="html5shiv.js"></script>
+	<![endif]-->
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -33,9 +36,8 @@
 				<li><a href="#">Link</a></li>
 				<li><a href="#">Link</a></li>
 				<div id="social_icons">
-					<img src="http://placehold.it/30x30"/>
-					<img src="http://placehold.it/30x30"/>
-					<img src="http://placehold.it/30x30"/>
+					<i class="icon-facebook icon-large icon-white"></i>
+					<i class="icon-twitter icon-large icon-white"></i>					
 				</div>
 			</ul>
 			

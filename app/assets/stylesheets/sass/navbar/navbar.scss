@@ -3,6 +3,13 @@
 #social_icons {
   float: right;
   margin-right: 5px;
+  position: relative;
+  top: 10px;
+  color: white;
+  
+  i {
+    margin: 10px;
+  }
   
 }
 

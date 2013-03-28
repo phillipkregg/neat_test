@@ -1,19 +1,20 @@
 
 
 .breadcrumb_nav {
-  background: black;
-  color: $sky_blue;
-  padding: 5px;
+  background: $breadCrumbContainerBg;  
+  @include pad(5px);
   font-size: 14px;
+  font-weight: 900;
   
   font-family: 'PT Sans Caption', sans-serif;
   .breadcrumb_link {
-    padding: 5px;
+    @include pad(10px);
     a {
-      color: $sky_blue;
+      color: $breadCrumbColor;
     }
   }
   .breadcrumb_link_last {
-    color: gray;
+    @include pad(10px);
+    color: $currentBreadCrumbColor;
   }
 }

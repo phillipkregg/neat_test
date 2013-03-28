@@ -1,4 +1,16 @@
 
-
+// Main colors
 $sky_blue: #B8D7FE;
 $medium_blue: #334F7D;
+$dark_blue: #16233E;
+
+/******************* Element colors ********************/
+
+// Breadcrumbs
+$breadCrumbContainerBg: transparent;
+$breadCrumbColor: $medium_blue;
+$currentBreadCrumbColor: black;
+
+// 2 Column Box
+$boxHeaderBg: black;
+$subHeaderBg: $medium_blue;

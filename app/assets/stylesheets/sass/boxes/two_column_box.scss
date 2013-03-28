@@ -1,7 +1,7 @@
 
 .two_column_box {  
   .box_header_container {    
-    background: black;    
+    background: $boxHeaderBg;    
     overflow: auto;
     
     .old_client_header { 
@@ -22,15 +22,15 @@
     @include span-columns(8 of 8);
     @include pad(5px);
     text-align: center;
-    background: $medium_blue;
+    @include linear-gradient($medium_blue, $dark_blue);
     color: white;
   }
   .box_left_column {
-    
+    line-height: 20px;
     @include span-columns(6);
   }
   .box_right_column {
-    
+    line-height: 20px;
     
   }
   

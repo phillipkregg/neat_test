@@ -19,16 +19,15 @@
 
 // include sass files
 @import "sass/variables";
+@import "sass/fonts/fonts";
 @import "sass/layout/layout";
+@import "sass/mixins/mixins";
 @import "sass/navbar/navbar";
 @import "sass/post/post";
 @import "sass/boxes/two_column_box";
 @import "sass/articles/article";
 
-// fonts
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
 
 
 
