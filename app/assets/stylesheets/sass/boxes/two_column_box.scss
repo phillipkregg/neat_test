@@ -6,14 +6,19 @@
     
     .old_client_header { 
       @include span-columns(4 of 8);       
-      text-align: left;    
-      color: white;
+      text-align: left;   
+      h3 {
+        color: white;
+      } 
+      
       
     }
     .new_client_header {   
       @include span-columns(4 of 8);      
       text-align: left;
-      color: white;
+      h3 {
+        color: white;
+      }
       
     }
   } // end box header container

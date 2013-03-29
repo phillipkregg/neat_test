@@ -1,0 +1,23 @@
+
+.single_column_box {
+  margin-top: 10px;
+  @include box-shadow(0 0 5px 2px hsla(0, 0%, 0%, 0.65));  
+  .box_header {
+    @include pad(10px);
+    @include linear-gradient($medium_blue, $dark_blue);
+    
+    h3 {
+      color: white;
+      text-transform: uppercase;
+    }
+    
+  }
+  .box_content {
+    @include pad(10px);
+    text-align: left;
+    h4 {
+      margin: 0;
+    }
+    border-bottom: 1px solid #ccc;
+  }
+}
